@@ -107,7 +107,7 @@ For detailed instructions, see [JMX checks](./docs/dev/checks/jmxfetch.md)
 You'll find information and help on how to contribute code to this project under
 [the `docs/dev` directory](docs/dev) of the present repo.
 
-## License
+## Licenses
 
 The Datadog agent user space components are licensed under the
 [Apache License, Version 2.0](LICENSE). The BPF code is licensed
