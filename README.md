@@ -37,7 +37,7 @@ To build the Agent you need:
       `echo "source <(dda inv --print-completion-script zsh)" >> ~/.zshrc`
 
 Builds and tests are orchestrated with `invoke`, type `dda inv --list` on a shell
-to see the available tasks.
+to see the available tasks
 
 To start working on the Agent, you can build the `main` branch:
 
@@ -95,7 +95,7 @@ You can run the agent with:
 
 The file `bin/agent/dist/datadog.yaml` is copied from `dev/dist/datadog.yaml` by `dda inv agent.build` and must contain a valid api key.
 
-### Run a JMX check
+### Run a JMX checks
 In order to run a JMX based check locally, you must have:
 1. A copy of a JMXFetch `jar` copied to `dev/dist/jmx/jmxfetch.jar`
 2. `java` available on your `$PATH`
@@ -107,7 +107,7 @@ For detailed instructions, see [JMX checks](./docs/dev/checks/jmxfetch.md)
 You'll find information and help on how to contribute code to this project under
 [the `docs/dev` directory](docs/dev) of the present repo.
 
-## License
+## Licenses
 
 The Datadog agent user space components are licensed under the
 [Apache License, Version 2.0](LICENSE). The BPF code is licensed
