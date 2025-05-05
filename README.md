@@ -1,4 +1,4 @@
-# Datadog Agents
+# Datadog Agent
 
 [![Windows unit tests](https://github.com/DataDog/datadog-agent/actions/workflows/windows-unittests.yml/badge.svg)](https://github.com/DataDog/datadog-agent/actions/workflows/windows-unittests.yml)
 [![Coverage status](https://codecov.io/github/DataDog/datadog-agent/coverage.svg?branch=main)](https://codecov.io/github/DataDog/datadog-agent?branch=main)
@@ -15,7 +15,7 @@ The present repository contains the source code of the Datadog Agent version 7 a
 The general documentation of the project, including instructions for installation
 and development, is located under [the docs directory](docs) of the present repo.
 
-## Getting started
+## Getting started with Datadog-agent
 
 To build the Agent you need:
  * [Go](https://golang.org/doc/install) 1.23. You'll also need to set your `$GOPATH` and have `$GOPATH/bin` in your path.
